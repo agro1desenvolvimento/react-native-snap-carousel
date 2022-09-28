@@ -25,11 +25,6 @@ jobs:
         env:
           PACKAGES_GITHUB_TOKEN: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
 
-      - name: Build
-        run: yarn build
-        env:
-          PACKAGES_GITHUB_TOKEN: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
-
       - run: yarn publish
         env:
           PACKAGES_GITHUB_TOKEN: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
