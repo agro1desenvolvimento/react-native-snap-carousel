@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * @format
  */
@@ -10,5 +11,5 @@ import Root from '../src/index';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
-  renderer.create(<Root />);
+    renderer.create(<Root />);
 });

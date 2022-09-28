@@ -44,7 +44,7 @@ export default class PaginationDot extends PureComponent {
 
     _animate (toValue = 0) {
         const { animColor, animOpacity, animTransform } = this.state;
-        const { animatedDuration, animatedFriction, animatedTension } = this.props
+        const { animatedDuration, animatedFriction, animatedTension } = this.props;
 
         const commonProperties = {
             toValue,

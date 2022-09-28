@@ -51,7 +51,7 @@ export default class SliderEntry extends Component {
               activeOpacity={1}
               style={styles.slideInnerContainer}
               onPress={() => { alert(`You've clicked '${title}'`); }}
-              >
+            >
                 <View style={styles.shadow} />
                 <View style={[styles.imageContainer, even ? styles.imageContainerEven : {}]}>
                     { this.image }
