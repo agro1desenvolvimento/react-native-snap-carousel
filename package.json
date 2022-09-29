@@ -1,6 +1,6 @@
 {
     "name": "@agro1desenvolvimento/react-native-snap-carousel",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Swiper/carousel component for React Native with previews, multiple layouts, parallax images, performant handling of huge numbers of items, and RTL support. Compatible with Android & iOS.",
     "main": "src/index.js",
     "typings": "src/typings/index.d.ts",

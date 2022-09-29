@@ -25,6 +25,8 @@ jobs:
       - name: Install Node.js dependencies
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: yarn install
+        env:
+          PACKAGES_GITHUB_TOKEN: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
 
       - run: yarn publish --access public
         env:
